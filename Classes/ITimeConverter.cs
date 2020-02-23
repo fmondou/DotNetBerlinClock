@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace BerlinClock
 {
+    /// <summary>An interface describing a way to convert time to berlin clock time representation.</summary>
     public interface ITimeConverter
     {
-        String convertTime(String aTime);
+        /// <summary>Converts a time to berlin clock time representation.</summary>
+        /// <param name="timeToConvert">Time to convert.</param>
+        /// <returns>Converted time.</returns>
+        String ConvertTime(String timeToConvert);
     }
 }

@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BerlinClock", "BerlinClock.csproj", "{0451204D-BF86-43E1-B560-FC9AC830B9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Helpers", "Infra.Helpers\Infra.Helpers.csproj", "{567EA05A-D68D-4D71-95E4-3F635AD3D051}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{0451204D-BF86-43E1-B560-FC9AC830B9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0451204D-BF86-43E1-B560-FC9AC830B9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0451204D-BF86-43E1-B560-FC9AC830B9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567EA05A-D68D-4D71-95E4-3F635AD3D051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567EA05A-D68D-4D71-95E4-3F635AD3D051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567EA05A-D68D-4D71-95E4-3F635AD3D051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567EA05A-D68D-4D71-95E4-3F635AD3D051}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5342F97D-2377-406F-B451-0939733778E8}
 	EndGlobalSection
 EndGlobal
